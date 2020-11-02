@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal; /* толщина шрифта */
+    font-size: 4.5rem;    /* высота шрифта  */
+    margin-top: 5rem; /* отступ сверху */
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Выравнивание элементов по центру */
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 3rem; /* высота шрифта  */
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el  { /*общий класс для всех цифр в счетчике */
+    text-align: center; /* выравнивание текста по центру*/
+}
+.countdown-el span { /*общий класс для всех цифр в счетчике */
+    font-size: 1.3rem;
+}
